@@ -1,0 +1,33 @@
+TODO:
+
+-- imgur screenshot upload (with grim/slurp?)
+   (or https://github.com/debendraoli/screenshot-imgur, or others?)
+-- Configure 'sddm' (can we configure displays here too?)
+-- Go over old 'app_package_list'
+-- Grab missing things from old 'config_package_list'
+
+
+LEFT OFF:
+
+Steam laggy af?
+Cursor theme
+Dark mode for other apps (will this affect taskbar icons too?)
+	'lxappearance' and 'qt5ct'?
+	Do I need to set env variables for fish too? Or is in _env enough?
+	
+
+
+BACKUP:
+
+.icons
+.config/
+	xsettingsd/
+	gtk-3.0/
+	gtk-4.0/
+	dolphinrc
+	gtkrc
+	gtkrc-2.0
+	kdeglobals
+	latte
+	qt5ct
+	qt6ct
