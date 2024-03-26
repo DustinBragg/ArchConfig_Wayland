@@ -2,4 +2,4 @@
 # ~/.bash_profile
 #
 
-source ~/Scripts/_env
+source ~/Scripts/_env.sh
