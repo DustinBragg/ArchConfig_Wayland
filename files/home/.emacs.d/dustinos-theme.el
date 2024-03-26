@@ -10,7 +10,7 @@
 		(link "#ED900C")
 		(cursor "#EDB064")
 		(mode-line-text "#FFFFFF")
-		(mode-line-bg "#AD7024")
+		(mode-line-bg "#AF5F00")
 		(mode-line-inactive-text "#CCCCCC")
 		(mode-line-inactive-bg "#444444")
 	)
