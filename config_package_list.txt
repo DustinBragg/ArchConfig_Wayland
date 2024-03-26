@@ -31,3 +31,4 @@ neofetch
 p7zip
 ntfs-3g
 network-manager-applet
+xorg-xrandr
