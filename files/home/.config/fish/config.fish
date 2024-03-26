@@ -31,10 +31,12 @@ function ExtendMyPath
 	fish_add_path ~/Shortcuts
 end
 
-function CreateAliases
-	alias man="man_emacs"
-	alias descratch="rm -rf ~/Scratch/*"
-	alias lls="ls -lah"
+function man
+	man_emacs $argv
+end
+
+function lls
+	ls -lah
 end
 
 function fish_greeting
@@ -43,4 +45,3 @@ end
 SetupMyTheme
 SetupMyBinds
 ExtendMyPath
-CreateAliases
