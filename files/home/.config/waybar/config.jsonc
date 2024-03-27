@@ -18,6 +18,7 @@
         "temperature#cpu",
         "temperature#gpu",
         "pulseaudio",
+		"custom/wlsunset",
         "clock#date",
         "clock#12h",
         "clock#24h",
@@ -69,6 +70,14 @@
 		"tooltip": false,
         "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
     },
+
+	"custom/wlsunset": {
+		"exec": "$HOME/.config/waybar/custom_modules/wlsunset.sh",
+		"on-click": "$HOME/.config/waybar/custom_modules/wlsunset_toggle.sh",
+		"format": "{}",
+		"interval": "once",
+		"signal": 52
+	},
 
     "clock#date": {
 		"format": "{:%A, %b %e, %Y}",

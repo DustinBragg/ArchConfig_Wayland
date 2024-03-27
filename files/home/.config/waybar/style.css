@@ -71,7 +71,8 @@ background-color: #9D6014;
 #cpu,
 #pulseaudio,
 #scratchpad,
-#temperature {
+#temperature,
+#custom-wlsunset {
 font-size: 16px;
 padding: 0px 8px 0px 8px;
 margin: 0px 4px 0px 4px;
