@@ -36,3 +36,4 @@ syncthing
 obsidian
 nomachine
 wlsunset
+discord
