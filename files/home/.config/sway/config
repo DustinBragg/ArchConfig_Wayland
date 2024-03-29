@@ -94,7 +94,6 @@ font pango:$MainFontPango
 #
 
 exec nm-applet
-exec wlsunset -l 37.6 -L -97.3
 
 # Theme settings for GTK because everything is terrible!
 set $gnome-schema org.gnome.desktop.interface
