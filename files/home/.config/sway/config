@@ -75,6 +75,7 @@ output DP-1 mode 2560x1440@120Hz position 0,1440 scale 1.0 adaptive_sync on
 output DP-2 mode 2560x1440@120Hz position 0,0 scale 1.0 adaptive_sync on
 output DP-3 mode 3840x2160@120Hz position 2560,600 scale 1.0 adaptive_sync on
 exec xrandr --output DP-3 --primary
+exec wlsunset -l 37.6 -L -97.3
 
 ### Appearance configuration
 default_border pixel 1
@@ -94,6 +95,7 @@ font pango:$MainFontPango
 #
 
 exec nm-applet
+exec mako mako --background-color=#202020 --border-color=$FocusedSplitInd --anchor bottom-right --outer-margin=50 --font="Twilio Sans Mono 16"
 
 # Theme settings for GTK because everything is terrible!
 set $gnome-schema org.gnome.desktop.interface
