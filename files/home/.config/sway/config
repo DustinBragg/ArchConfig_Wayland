@@ -95,7 +95,7 @@ font pango:$MainFontPango
 #
 
 exec nm-applet
-exec mako mako --background-color=#202020 --border-color=$FocusedSplitInd --anchor bottom-right --outer-margin=50 --font="Twilio Sans Mono 16"
+exec mako --background-color=#202020 --border-color=$FocusedSplitInd --anchor bottom-right --outer-margin=50 --font="Twilio Sans Mono 16"
 
 # Theme settings for GTK because everything is terrible!
 set $gnome-schema org.gnome.desktop.interface
