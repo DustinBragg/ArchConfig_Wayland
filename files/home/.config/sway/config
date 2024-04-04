@@ -171,7 +171,7 @@ input "pointer" {
 	bindsym $mod+c exec --no-startup-id $term -e "qalc"
 
 	# Imgur Screenshot
-	bindsym $mod+Shift+4 exec "~/Scripts/screenshot --notify --action imgur --type select --path ~/Scratch"
+	bindsym Ctrl+Shift+4 exec "~/Scripts/screenshot --notify --action imgur --type select --path ~/Scratch"
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -f 'pango:$LogoutBarFontPango' -m "" -B '' 'systemctl poweroff' -B '' 'systemctl reboot' -B '' 'swaymsg exit'
