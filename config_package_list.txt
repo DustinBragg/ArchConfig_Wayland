@@ -37,3 +37,8 @@ obsidian
 nomachine
 wlsunset
 discord
+wl-clipboard
+grim
+slurp
+python
+libnotify
