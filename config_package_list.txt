@@ -42,3 +42,4 @@ grim
 slurp
 python
 libnotify
+yt-dlp

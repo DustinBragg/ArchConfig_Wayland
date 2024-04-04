@@ -39,6 +39,10 @@ function lls
 	ls -lah $argv
 end
 
+function yt-mp3
+	yt-dlp -f ba -x --audio-format mp3 "$argv"
+end
+
 function fish_greeting
 end
 
