@@ -36,7 +36,7 @@ function man
 end
 
 function lls
-	ls -lah
+	ls -lah $argv
 end
 
 function fish_greeting
